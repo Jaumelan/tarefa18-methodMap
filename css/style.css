@@ -38,12 +38,14 @@ form {
 
 fieldset {
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 85%;
+    width: 100%;
     size: 2rem;
+    gap: 2%;
+    box-sizing: content-box;
 }
 
 section {
@@ -52,4 +54,13 @@ section {
     justify-content: center;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    border-spacing: 9px;
+    background-color: rgb(24, 24, 136);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px 0;
 }
